@@ -83,6 +83,7 @@ app.get('/todo', function (req, res) {
     .listen(port, function () {
         // Logging to console
         console.log(`Todolist running on http://0.0.0.0:${port}`)
+        console.log("Thanks For Using My Todo-app")
     });
 // Export app
 module.exports = app;
